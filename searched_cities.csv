@@ -1,6 +1,7 @@
 city,temperature(Celsius),humidity,description
-london,3.7,96,light rain
-kathmandu,17.12,55,haze
+london,1.03,90,clear sky
+kathmandu,16.12,48,light rain
 munich,0.95,94,heavy snow
-manchester,0.79,89,moderate rain
+manchester,0.82,92,scattered clouds
 liverpool,0.38,95,light snow
+berlin,6.95,71,scattered clouds
