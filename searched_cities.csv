@@ -1,7 +1,8 @@
-city,temperature(Celsius),humidity,description
-london,1.03,90,clear sky
-kathmandu,16.12,48,light rain
-munich,0.95,94,heavy snow
-manchester,0.82,92,scattered clouds
-liverpool,0.38,95,light snow
-berlin,6.95,71,scattered clouds
+city,temperature(Celsius),humidity,description,Date,Day
+london,-1.98,92,clear sky,2025-01-11,Saturday
+kathmandu,13.12,62,haze,2025-01-11,Saturday
+munich,0.95,94,heavy snow,,
+manchester,0.82,92,scattered clouds,,
+liverpool,0.38,95,light snow,,
+berlin,6.95,71,scattered clouds,,
+noida,15.16,34,clear sky,,
