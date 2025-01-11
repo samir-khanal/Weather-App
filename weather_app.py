@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
+if API_KEY is None: raise ValueError("No API key found. Please set the API_KEY environment variable.")
 
 Searched_cities="searched_cities.csv"
 
