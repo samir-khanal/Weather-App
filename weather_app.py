@@ -4,6 +4,11 @@ from store_api import API_KEY
 import pandas as pd 
 from datetime import datetime
 import matplotlib.pyplot as plt
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv('API_KEY')
 
 Searched_cities="searched_cities.csv"
 
@@ -11,7 +16,7 @@ def store_weather_data(city_name, weather_data):
     # Current date and day
     current_date = datetime.now().date() # datetime.now() it gets current date and time
     current_day = datetime.now().strftime("%A") #strftime "string format time" and %A return full name of the current day
-    
+
     #checking if file exists or not.
     try:
         searched_cities_df=pd.read_csv(Searched_cities)
